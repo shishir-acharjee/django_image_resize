@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Preview</title>
+</head>
+<body>
+    <h1>Preview Image</h1>
+    <img src="{{ image.resized_image.url }}" alt="Resized Image">
+    <a href="{% url 'upload_image' %}">Upload Another Image</a>
+</body>
+</html>
